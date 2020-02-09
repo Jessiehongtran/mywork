@@ -42,7 +42,7 @@ li {
 }
 
 .first-impression {
-    background-color: rgb(216, 214, 214);
+    background-color: rgb(250, 233, 216);
     margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
@@ -98,6 +98,7 @@ width: 320px;
 
 .intro {
     font-size: 18px;
+    color: #847D76
 }
 
   
