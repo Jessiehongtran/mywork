@@ -1,0 +1,44 @@
+.manifest {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    color: grey;
+  }
+  
+.icons{
+    margin: 20px;
+    display: flex;
+  }
+
+li {
+    list-style-type: none;
+}
+
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+  }
+  
+    .icon:before {
+      -moz-osx-font-smoothing:gray;
+      -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none !important;
+    }
+  
+    .icon > .label {
+      display: none;
+    }
