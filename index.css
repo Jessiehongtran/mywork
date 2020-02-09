@@ -120,13 +120,14 @@ width: 320px;
     font-family:  "Gill Sans", sans-serif;
     margin-bottom: 20px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .project-name {
     font-family:  "Gill Sans", sans-serif;
     color: #858485 ;
     font-size: 30px;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 10px 20px;
 }
 
 .project-info {
@@ -137,10 +138,12 @@ width: 320px;
 
 .image {
     width: 40%;
+    text-align: center;
 }
 
 .project-image {
     width: 100%;
+   
 }
 
 .details {
@@ -157,6 +160,7 @@ width: 320px;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 .title {
