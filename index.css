@@ -161,5 +161,6 @@ button, .btn {
 }
 
 .note-container {
-    margin: 40px
+    padding: 40px;
+    background-color: #F9F6F6 
 }
