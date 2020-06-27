@@ -14,6 +14,7 @@ nav a {
 .icons{
     margin: 20px;
     display: flex;
+    align-items: center;
   }
 
 li {
@@ -25,6 +26,21 @@ li {
     border-bottom: none;
     position: relative;
   }
+
+.icon.medium, .icon.twitter, .icon.processing  {
+    width: 18px;
+    margin-right: 15px
+}
+
+.icon.trinket, .icon.repl {
+    width: 20px;
+    margin-right: 15px
+}
+
+.icon.hacker {
+    width: 23px;
+    margin-right: 15px
+}
   
 .icon:before {
     -moz-osx-font-smoothing:gray;
