@@ -4,18 +4,46 @@ nav {
     align-items: center;
 }
 
+@media (max-width: 1000px) {
+    nav{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+    }
+   
+}
+
 nav a {
     text-decoration: none;
     margin: 10px;
     font-size: 18px;
     color: grey;
   }
+
+@media (max-width: 500px) {
+    nav a{
+       width: 100%
+    }
+   
+}
+
+.links {
+    display: flex;
+}
   
 .icons{
     margin: 20px;
     display: flex;
     align-items: center;
   }
+@media (max-width: 500px) {
+    .icons{
+       width: 100%;
+       margin: 5px
+    }
+   
+}
 
 li {
     list-style-type: none;
@@ -62,6 +90,14 @@ li {
     justify-content: space-evenly;
 }
 
+@media (max-width: 500px) {
+    .projects{
+       flex-direction: column;
+       padding: 0 10px 10px 10px
+    }
+   
+}
+
 .project-card {
     width: 20%;
     display: flex;
@@ -75,9 +111,14 @@ li {
     box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
     font-family:  "Gill Sans", sans-serif;
     margin: 10px;
-    /* justify-content: space-between; */
-    
-    
+    /* justify-content: space-between; */   
+}
+
+@media (max-width: 500px) {
+    .project-card{
+       width: 90%;
+    }
+   
 }
 
 .image {
